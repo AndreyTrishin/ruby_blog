@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  get 'persons/profile'
   resources :posts do
   resources :comments
 end
