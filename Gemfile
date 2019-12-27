@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
 
+#vue.js
+gem 'foreman'
+
 #Authorization DEVICE
 gem 'devise'
 #Bootstrap
